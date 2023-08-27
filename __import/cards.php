@@ -1,7 +1,11 @@
 <div class="container mg-padding-top100rem mg-padding-bottom135rem">
     <h2 style="font-size: 1.86rem; font-weight: 600" class="text-center">هنر و علم بازاریابی دیجیتال</h2>
     <h5 style="font-size: 1.14rem; font-weight: 400" class="text-center text-body mt-4 mg-margin-bottom45rem">مطالب ما را در شبکه‌های اجتماعی و وبلاگ نوین دنبال کنید</h5>
+
+    <!-- row of cards -->
     <div class="row">
+
+        <!-- cards of content -->
         <div class="col-12 col-md-6 col-lg-4 position-relative ">
             <div class="card topTopics mg-margin-bottom20rem border-0 shadow-custom">
                 <a href="#">
@@ -36,6 +40,8 @@
             </div>
 
         </div>
+
+        <!-- blue card -->
         <div class="col-12 col-md-6 col-lg-4 ">
             <div class="card blueCard rounded-3 mg-margin-bottom20rem">
                 <div>
@@ -73,6 +79,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Ads -->
         <div class="col-12 col-lg-4  ">
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-12">

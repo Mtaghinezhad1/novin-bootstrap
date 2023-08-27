@@ -1,6 +1,10 @@
 <div class="mg-padding-bottom105rem position-relative overflow-hidden"  style="border-bottom: 1px solid rgba(70,72,77,.08)">
+
+    <!-- digital merketing services -->
     <div class="digital-marketing-services mg-padding-top115rem mg-padding-bottom150rem">
         <div class="container">
+
+            <!-- title -->
             <div class="row mb-5">
                 <div class="col-12 col-md-6 digital-title text-center text-md-start">
                     <h2 style="font-size: 1.86rem; font-weight: 600">خدمات دیجیتال مارکتینگ نوین</h2>
@@ -10,6 +14,8 @@
                     <a href="#" class="btn-custom">تمام خدمات نوین</a>
                 </div>
             </div>
+
+            <!-- first row of cards -->
             <div class="row my-4">
                 <div class="col-12 col-md-6">
                     <div style="background-image: url('https://www.novin.com/wp-content/uploads/2020/02/Rounded-Rectangle-15.png')" class="col-12 col-md-6 d-flex align-items-center justify-content-start digital-marketing-card">
@@ -28,6 +34,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- second row of cards -->
             <div class="row">
                 <div class="col-12 col-md-6 mb-4 col-lg-3">
                     <a href="#" class="digital-marketing-minicard shadow-custom overflow-hidden">
@@ -95,60 +103,63 @@
                 </div>
 
             </div>
-
         </div>
     </div>
+
+     <!-- carousels -->
     <div class="container  text-center" >
         <!-- logos carousel-->
         <div id="slickyLogos" dir="ltr" style="direction: ltr; top: -3.5rem" class="shadow-custom bg-white rounded-3 position-relative mg-padding22rem">
-                    <div >
+            <div >
                         <div style="height: 56px" class="d-flex align-items-center">
                             <img src="https://www.novin.com/wp-content/uploads/2018/05/Chapagha-Logo.png" alt="sdf">
 
                         </div>
                     </div>
-                    <div>
+            <div>
                         <div style="height: 56px" class="d-flex align-items-center">
                             <img src="https://www.novin.com/wp-content/uploads/2020/02/bartarinha.jpg" alt="sdf">
 
                         </div>
                     </div>
-                    <div >
+            <div >
                         <div style="height: 56px" class="d-flex align-items-center">
                             <img src="https://www.novin.com/wp-content/uploads/2020/02/Kaleh_logo.jpg" alt="sdf">
 
                         </div>
                     </div>
-                    <div >
+            <div >
                         <div style="height: 56px" class="d-flex align-items-center">
                             <img src="https://www.novin.com/wp-content/uploads/2020/02/rond-logo.jpg" alt="sdf">
 
                         </div>
                     </div>
-                    <div >
+            <div >
                         <div style="height: 56px" class="d-flex align-items-center">
                             <img src="https://www.novin.com/wp-content/uploads/2019/02/didnegar-logo.jpg" alt="sdf">
 
                         </div>
                     </div>
-                    <div>
+            <div>
                         <div style="height: 56px" class="d-flex align-items-center">
                             <img src="https://www.novin.com/wp-content/uploads/2020/11/snapptrip.png" alt="sdf">
 
                         </div>
                     </div>
-                    <div >
+            <div >
                         <div style="height: 56px" class="d-flex align-items-center">
                             <img src="https://www.novin.com/wp-content/uploads/2020/12/tap30.png" alt="sdf">
 
                         </div>
                     </div>
-                </div>
+        </div>
+
+        <!-- comment carousel -->
         <div class="comment-customer  mg-margin-bottom35rem">
             <h2 style="font-size: 1.86rem; font-weight: 600">نظرات مشتریان ما</h2>
             <h3 style="font-size: 1.28rem; font-weight: 400; line-height: 1.5" class="text-body">نظر شما دربارۀ دوره‌ها و آموزش‌های نوین</h3>
             <div class="mb-4">
-                <div id="carouselComment" dir="ltr" style="direction: ltr;">
+                <div id="carouselComment"  dir="ltr" style="direction: ltr;">
                     <div class=" m-3 card shadow-custom border-0 comment">
                         <div class="card-body">
                             <div class="contactNameImg">

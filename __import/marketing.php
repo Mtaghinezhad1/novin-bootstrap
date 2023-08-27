@@ -1,5 +1,7 @@
 <section>
     <div class="container">
+
+        <!-- title -->
         <div class="row mg-margin-top75rem mg-margin-bottom40rem" >
             <div class="col-12 col-md-6 text-center text-md-start">
                 <div>
@@ -11,6 +13,8 @@
                 <a href="#" class="btn-custom text-white">تمام آموزش های نوین</a>
             </div>
         </div>
+
+        <!-- cards -->
         <div class="row mg-margin-bottom40rem">
             <div class="col-12">
                 <a class="text-decoration-none text-body d-block" href="#">

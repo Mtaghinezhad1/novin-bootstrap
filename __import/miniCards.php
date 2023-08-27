@@ -1,5 +1,7 @@
 <section class="mg-padding-bottom90rem">
     <div class="container">
+
+        <!-- first row -->
         <div class="row mb-4">
             <div class="col-12 col-md-6 col-lg-3 mg-margin-bottom20rem">
                 <div class="card text-bg-dark ">
@@ -47,6 +49,8 @@
             </div>
 
         </div>
+
+        <!-- second row -->
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="w-100 position-relative bg-white rounded-2 shadow-custom card-achievement mg-padding24rem30rem">

@@ -1,5 +1,7 @@
 <section class="section-introduction">
     <div class="container">
+
+        <!-- description -->
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="w-100 mg-margin-bottom100rem text-center text-md-start  ">
@@ -17,6 +19,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- miniCards -->
         <div class="row mg-max-w720rem">
             <div class="col-12 col-md-6 mb-4" style="background-image: ">
                 <div class="w-100 position-relative bg-white rounded-2 shadow-custom card-achievement mg-padding24rem30rem">
