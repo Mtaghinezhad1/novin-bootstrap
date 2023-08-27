@@ -1,9 +1,16 @@
-
-body{
+body {
     text-align: right;
     background-color: #fff;
     font-size: 14px;
 }
+
+::selection{
+    background-color: var(--pa-bg-pink-300);
+    color:white;
+}
+/* ::-webkit-keygen-select{
+
+} */
 
 .blueCard {
     background-image: url("https://www.novin.com/wp-content/themes/novin-v2-92/assets/images/twitter-bg.png");
@@ -11,7 +18,7 @@ body{
 }
 
 .btnContinue {
-    background: hsla(0,0%,100%,.15);
+    background: hsla(0, 0%, 100%, .15);
     transition: all 0.3s;
     width: 90%;
     left: 50%;
@@ -19,27 +26,25 @@ body{
 }
 
 .btnContinue:hover {
-    background: hsla(0,0%,100%,.2);
+    background: hsla(0, 0%, 100%, .2);
     transition: all 0.3s;
 }
 
 .cardHeader {
-display: flex;
-align-items: center;
-justify-content: flex-start;   
-color: white; 
-text-decoration: none;
-padding: 32px;
-margin-bottom: 28px;
-border-bottom: 1px solid rgba(70,72,77,.08);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    text-decoration: none;
+    padding: 32px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid rgba(70, 72, 77, .08);
 }
 
 .contactNameImg {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
-
 }
 
 .contactName {
@@ -47,13 +52,13 @@ border-bottom: 1px solid rgba(70,72,77,.08);
 }
 
 .contactName h5 {
-    color: #46484d; !important;
+    color: #46484d !important;
     font-size: 1.14rem;
     font-weight: 600;
 }
 
 .contactName h6 {
-    color: #7f8187; !important;
+    color: #7f8187 !important;
     font-size: 0.93rem;
     font-weight: 500;
 }
@@ -64,9 +69,9 @@ border-bottom: 1px solid rgba(70,72,77,.08);
 }
 
 .contactNameImg img {
- width: 70px;
+    width: 70px;
     height: 70px;
-margin-left: 18px;
+    margin-left: 18px;
     border-radius: 5px;
 }
 
@@ -83,39 +88,39 @@ margin-left: 18px;
 
 .cardBody p::selection {
     background: #ff5588;
-
 }
 
 .cardBody div {
-    background-image: linear-gradient(0deg,#56a1ec,#56a1ec 21%,rgba(86,161,236,0));
+    background-image: linear-gradient(0deg, #56a1ec, #56a1ec 21%, rgba(86, 161, 236, 0));
     height: 350px;
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.topTopics a{
+.topTopics a {
     text-decoration: none;
     color: #7f8187;
 }
 
-.topTopics .card-body{
-    padding: 30px; !important;
+.topTopics .card-body {
+    padding: 30px !important;
 }
 
 
 
 .topTopics a h2 {
-    color: #46484d; !important;
-   }
+    color: #46484d !important;
+}
 
 
 
 
 .miniTopic a {
-  text-decoration: none;
+    text-decoration: none;
     color: #46484d;
 }
+
 .miniTopic a div {
     display: flex;
     align-items: center;
@@ -136,6 +141,7 @@ margin-left: 18px;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer1 h2 {
     color: white;
     margin-bottom: 25px;
@@ -150,14 +156,15 @@ margin-left: 18px;
 }
 
 .col23 a {
-text-decoration: none;
-color: #cacaca;
-transition: all 0.3s;
+    text-decoration: none;
+    color: #cacaca;
+    transition: all 0.3s;
 }
 
 .col23 a:hover {
     color: #fff;
 }
+
 .digital-title {
     text-align: right;
 }
@@ -177,11 +184,11 @@ transition: all 0.3s;
     height: 100px;
 }
 
-.digital-marketing-minicard-imgbox  img{
+.digital-marketing-minicard-imgbox img {
     height: 40px;
 }
 
-.digital-marketing-card{
+.digital-marketing-card {
     color: white;
     padding: 45px 50px;
     background-size: cover;
@@ -193,35 +200,35 @@ transition: all 0.3s;
     background-color: #f6f7fa;
 }
 
-
-
 .col23 ul li {
     list-style: none;
     padding: 4px 10px;
 }
+
 .btn-contact {
     background-color: #53565c;
     color: #cacaca;
-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .btn-moshavere {
     z-index: 1000;
     right: 40px;
     bottom: 40px;
-    background-image: linear-gradient(-45deg,var(--pa-bg-orange-400),var(--pa-bg-orange-300));
-    box-shadow: 0 2px 5px hsla(0,0%,100%,.25), 0 5px 15px rgba(239,134,77,.35);
+    background-image: linear-gradient(-45deg, var(--pa-bg-orange-400), var(--pa-bg-orange-300));
+    box-shadow: 0 2px 5px hsla(0, 0%, 100%, .25), 0 5px 15px rgba(239, 134, 77, .35);
     transition: all 0.3s;
 }
 
 .btn-moshavere:hover {
     transform: scale(1.1);
-    box-shadow: 0 3px 8px hsla(0,0%,100%,.25), 0 7px 30px rgba(239,134,77,.45);
+    box-shadow: 0 3px 8px hsla(0, 0%, 100%, .25), 0 7px 30px rgba(239, 134, 77, .45);
 }
 
 .custom-input-border {
     border: 1px solid var(--pa-bg-gray-200);
 }
+
 .custom-input-border:focus {
     border: 1px solid var(--pa-bg-gray-200);
     box-shadow: none;
@@ -241,11 +248,11 @@ transition: all 0.3s;
     cursor: pointer;
 }
 
-.custom-radio input:checked ~ span {
+.custom-radio input:checked~span {
     background-color: var(--pa-bg-blue-300);
 }
 
-.custom-radio input:checked ~ span svg {
+.custom-radio input:checked~span svg {
     display: block;
 }
 
@@ -262,11 +269,11 @@ transition: all 0.3s;
 
 
 .comment-customer h2 {
-    padding-top: 70px; !important;
+    padding-top: 70px !important;
 }
 
 
-.carousel-client-container{
+.carousel-client-container {
     padding: 0 40px;
     height: 120px;
 }
@@ -275,6 +282,7 @@ transition: all 0.3s;
     background-color: #424449;
 
 }
+
 .footer2 {
     background: #2b2d30;
     padding: 10px 0;
@@ -299,7 +307,7 @@ transition: all 0.3s;
 }
 
 .card-achievement:hover {
-    box-shadow: 0 10px 36px 4px rgba(70,72,77,.09);
+    box-shadow: 0 10px 36px 4px rgba(70, 72, 77, .09);
 }
 
 .card-achievement:hover a {
@@ -327,7 +335,8 @@ transition: all 0.3s;
     width: 35px;
     height: 46px;
 }
-.navbar-drops{
+
+.navbar-drops {
     font-size: 1.07rem;
     color: var(--pa-bg-gray-600);
     text-align: right;
@@ -346,6 +355,7 @@ transition: all 0.3s;
     font-size: 1.14rem;
     color: var(--pa-bg-gray-800);
 }
+
 .ad-off70-a {
     font-size: 1.07rem;
 }
@@ -355,19 +365,21 @@ transition: all 0.3s;
     color: #cacaca;
     transition: all 0.3s;
 }
+
 .copyRight a:hover {
     text-decoration: none;
     color: #fff;
 }
+
 .shadow-custom {
-    box-shadow: 0 3px 12px rgba(70,72,77,.09);
+    box-shadow: 0 3px 12px rgba(70, 72, 77, .09);
 }
 
 .comment-customer:after {
     content: '';
     height: 250px;
     width: 200px;
-    background-color: rgba(140,124,229,.09);
+    background-color: rgba(140, 124, 229, .09);
     position: absolute;
     left: 0;
     bottom: 145px;
@@ -382,7 +394,7 @@ transition: all 0.3s;
     content: '';
     height: 350px;
     width: 250px;
-    background-color: rgba(140,124,229,.08);
+    background-color: rgba(140, 124, 229, .08);
     position: absolute;
     left: 0;
     bottom: 90px;
@@ -395,7 +407,7 @@ transition: all 0.3s;
 }
 
 
-.btn-custom{
+.btn-custom {
     padding: 13px 25px 11px;
     background: var(--pa-bg-pink-400);
     color: #ffffff;
@@ -404,12 +416,21 @@ transition: all 0.3s;
 }
 
 .btn-nemoone {
-    background-color: var(--pa-bg-blue-400); !important;
+    background-color: var(--pa-bg-blue-400) !important;
     transition: all 0.3s;
 }
 
 .btn-nemoone:hover {
     color: white;
-    background-color: var(--pa-bg-blue-500); !important;
+    background-color: var(--pa-bg-blue-500) !important;
 }
 
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}

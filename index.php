@@ -13,26 +13,26 @@
 
 <body class="">
 
-    <!-- top Ads-->
+    <!-- top Ads -->
     <?php include_once "./__import/topAds.php"; ?>
 
     <!-- header -->
     <?php include_once "./__import/header.php"; ?>
 
-    <!-- section -->
-    <?php include_once "./__import/section1.php"?>
+    <!-- page title -->
+    <?php include_once "./__import/pageTitle.php" ?>
 
-    <!-- section 2-->
-    <?php include_once "./__import/section2.php"?>
+    <!-- marketing -->
+    <?php include_once "./__import/marketing.php" ?>
 
-    <!-- section 3-->
-    <?php include_once "./__import/section3.php"?>
+    <!-- miniCards -->
+    <?php include_once "./__import/miniCards.php" ?>
 
-    <!-- section 4-->
-    <?php include_once "./__import/section4.php"?>
+    <!-- digital marketing and carousels -->
+    <?php include_once "./__import/digitalMarketingAndCarousels.php" ?>
 
-    <!-- section 5-->
-    <?php include_once "./__import/section5.php"?>
+    <!-- cards -->
+    <?php include_once "./__import/cards.php" ?>
 
 <!-- footer -->
     <?php include_once "./__import/footer.php"?>
